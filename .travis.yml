@@ -1,7 +1,7 @@
 language: java
 sudo: false # faster builds
 
-script: "mvn clean compile package"
+script: "mvn -Dmaven.test.skip=false clean compile package"
 
 deploy:
   provider: pages
