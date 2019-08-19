@@ -6,6 +6,7 @@ script: "mvn clean compile"
 deploy:
   provider: pages
   skip-cleanup: true
+  github-token: $GITHUB_TOKEN
   local_dir: target
   on:
     branch: master
