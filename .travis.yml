@@ -1,7 +1,7 @@
 language: java
 sudo: false # faster builds
 
-script: "mvn clean compile"
+script: "mvn clean test -DisLocal=true -DisHeadless=false -Dwebdriver.gecko.driver=wdm_local/geckodriver -Dwebdriver.chrome.driver=wdm_local/chromedriver"
 
 deploy:
   provider: pages
