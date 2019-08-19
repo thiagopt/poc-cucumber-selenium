@@ -1,7 +1,7 @@
 language: java
 sudo: false # faster builds
 
-script: "mvn clean test -DisLocal=true -DisHeadless=false"
+script: "mvn clean compile"
 
 deploy:
   provider: pages
@@ -12,3 +12,13 @@ deploy:
 cache:
   directories:
   - "$HOME/.cache"
+branches:
+  except:
+  - legacy
+  - experimental
+
+# safelist
+branches:
+  only:
+  - master
+  - stable
