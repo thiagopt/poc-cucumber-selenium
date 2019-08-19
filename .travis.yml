@@ -1,12 +1,11 @@
 language: java
 sudo: false # faster builds
 
-script: "mvn clean test -DisLocal=true -DisHeadless=false -Dwebdriver.gecko.driver=wdm_local/geckodriver -Dwebdriver.chrome.driver=wdm_local/chromedriver"
+script: "mvn clean test -DisLocal=true -DisHeadless=false"
 
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
   local_dir: target
   on:
     branch: master
