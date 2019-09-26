@@ -1,0 +1,7 @@
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/pages/GooglePage.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/pages/AbstractPage.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/SharedContext.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/RunCucumberTest.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/pages/Eportugal.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/pages/DuckDuckGoPage.java
+/home/travis/build/thiagopt/poc-cucumber-selenium/src/test/java/learnmake/automation/stepdefs/MakeSearch.java

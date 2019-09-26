@@ -1,0 +1,8 @@
+learnmake/automation/pages/AbstractPage.class
+learnmake/automation/RunCucumberTest.class
+learnmake/automation/pages/DuckDuckGoPage.class
+learnmake/automation/pages/Eportugal.class
+learnmake/automation/SharedContext.class
+learnmake/automation/pages/GooglePage.class
+learnmake/automation/SharedContext$Browser.class
+learnmake/automation/stepdefs/MakeSearch.class
